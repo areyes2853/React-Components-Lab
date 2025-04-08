@@ -59,7 +59,7 @@ function App() {
             imgAlt={forecast.imgAlt}
             conditions={forecast.conditions}
             time={forecast.time}
-            // Alternatively, use spread props: {...forecast}
+          
          />
        ))}
      </section>
