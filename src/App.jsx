@@ -48,11 +48,22 @@ function App() {
   return (
     <>
      <h1>Local Weather</h1>
-    <section>
-      <Weather />
-    </section>
+     
+     <section>
+       {weatherForecasts.map((forecast) => (
+         <Weather
+            key={forecast.day}
+            // Pass all the necessary props down
+            day={forecast.day}
+            img={forecast.img}
+            imgAlt={forecast.imgAlt}
+            conditions={forecast.conditions}
+            time={forecast.time}
+            // Alternatively, use spread props: {...forecast}
+         />
+       ))}
+     </section>
     </>
-  )
+  );
 }
-
 export default App
