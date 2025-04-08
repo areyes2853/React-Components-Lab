@@ -1,7 +1,7 @@
 // src/components/WeatherForecast/WeatherForecast.jsx (Refactored)
 import React from 'react';
-import WeatherIcon from '../weatherIcons/WeatherIcon'; // Adjust path if needed
-import WeatherData from '../weatherData/WeatherData'; // Adjust path if needed
+import WeatherIcon from '../weatherIcons/WeatherIcon'; 
+import WeatherData from '../weatherData/WeatherData'; 
 import './WeatherForecast.css'; // Import the original CSS file
 
 // Accept all necessary props
