@@ -10,13 +10,13 @@ const WeatherForecast = ({ day, img, imgAlt, conditions, time }) => {
    
     <div className="weather">
 
-      {/* Render h2 directly here */}
+     
       <h2>{day}</h2>
 
-      {/* Render the WeatherIcon component */}
+     
       <WeatherIcon src={img} alt={imgAlt} />
 
-      {/* Render the WeatherData component */}
+     
       <WeatherData conditions={conditions} time={time} />
 
     </div>
